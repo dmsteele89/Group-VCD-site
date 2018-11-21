@@ -1,0 +1,186 @@
+/*Duncan Steele*/
+header {
+  height: 600px;
+  width: 92%;
+  margin-bottom: 8vh;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  height: 100%;
+  width: 96.9%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://jeromeonline.co.uk/wp-content/uploads/2017/12/graphic-design.png");
+}
+h1 {
+  grid-column-start: 2;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  color: white;
+  font-family: Comfortaa;
+  font-size: 6em;
+}
+p {
+  grid-column-start: 2;
+  grid-column-end: 13;
+  grid-row-start: 7;
+  grid-row-end: 7;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-top: 40px;
+}
+footer {
+  height: 300px;
+  width: 100%;
+}
+.footer {
+  background-color: #124e4e;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+.links {
+  display: flex;
+  width: 75%;
+  margin: auto;
+  justify-content: center;
+}
+.line {
+  padding: 1px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+.about {
+  margin-right: 30px;
+  font-family: Comfortaa;
+}
+.gallery {
+  margin-left: 30px;
+  font-family: Comfortaa;
+}
+/*Hope Marshall*/
+#gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  height: 50vh;
+  
+}
+
+#left{
+  background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/how-to/graphic-design-basics/_jcr_content/main-pars/image/5407-graphic-design-basics_1408x792.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4; 
+}
+
+#right{
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: grid;
+  grid-gap: 10px;
+}
+
+#right-top{
+  background-image: url("https://cdn.lynda.com/course/633854/633854-636549849211882123-16x9.jpg");
+  border-radius: 10px;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#right-bl{
+  background-image: url("https://cdn-images-1.medium.com/max/1600/1*TF1KPFfACuw6rXudyyrWzw.jpeg");
+  border-radius: 10px;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#right-br{
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/online_communication_design_on_various_colored_backgrounds_6825573.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 4;
+}
+
+#right-bm{
+  background-image: url("https://javieryep.files.wordpress.com/2014/12/tarea-4.jpg?w=480&h=480&crop=1");
+  background-size: cover;
+  border-radius: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+}
+/* Cassie Damiano - Navigation */
+
+nav {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  background-color: #124e4e;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  color: white;
+}
+
+nav img {
+  width: 125px;
+  border-radius: 150px;
+}
+
+.facebook {
+  border-radius: 0px;
+  padding-top: 37px;
+  padding-left: 295px;
+}
+
+div {
+  padding-top: 65px;
+  padding-left: 75px;
+  padding-right: 80px;
+}
+/*Duncan Steele*/
+.article {
+  background-color: #00AFA5;
+  border: solid red 1px;
+  display: block;
+  margin-top: 65px;
+  height: 33vw;
+  width: 100%;
+}
+body {
+  width: 100%;
+}
